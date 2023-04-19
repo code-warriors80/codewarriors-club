@@ -1,0 +1,497 @@
+.landing
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.landingparent
+{
+   width: 75%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap-reverse;
+   padding: 150px 0;
+}
+
+.landing-text
+{
+  width: 40%;
+}
+
+.landing-text h3
+{
+   font-size: 65px;
+   font-family: 'Cabin Sketch';
+   text-transform: uppercase;
+   font-weight: 300;
+}
+
+.words h5
+{
+  font-size: 10px;
+  margin: 10px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.words p
+{
+  font-size: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.words span
+{
+  font-size: 8px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.landing-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 60vh;
+    padding: 30px;
+}
+
+.landing img
+{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1250px)
+{
+               .landingparent
+{
+               width: 80%;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               flex-wrap: wrap-reverse;
+               height: 80vh;
+}
+
+               .landing-text
+               {
+               width: 40%;
+               }
+
+               .landing-text h3
+               {
+                              font-size: 60px;
+               }
+}
+
+@media screen and (max-width: 900px) {
+
+               .landing
+               {
+                              top: 80px;
+               }
+
+
+               .landingparent
+               {
+                  width: 75%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  flex-wrap: wrap-reverse;
+                  padding: 150px 0;
+               }     
+
+               .landing-text
+               {
+               width: 100%;
+               text-align: center;
+               }
+                              
+               .landing-img
+               {
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   width: 100%;
+                   height: 60vh;
+                   padding: 30px;
+               }
+
+               .landing-text h3
+{
+               font-size: 40px;
+}
+}
+
+
+@media screen and (max-width: 700px)
+{
+
+  .landingparent
+{
+   width: 75%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap-reverse;
+   padding: 150px 0;
+}     
+
+.landing-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    padding: 30px;
+}
+
+.landing-text h3
+{
+  font-size: 45px;
+}
+}
+
+@media screen and (max-width: 600px)
+{
+
+  .landingparent
+{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap-reverse;
+   padding: 100px 0;
+}     
+
+.landing-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    padding: 30px;
+}
+
+.landing-text h3
+{
+  font-size: 40px;
+  padding: 0 20px
+}
+}
+
+
+/* .landing
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  position: relative;
+  top: 100px;
+  padding: 0 100px;
+  z-index: 5;
+  height: 85vh;
+}
+
+
+.landing-text
+{
+  margin-left: 0px;
+  margin-top: 30px;
+  width: 35%;
+  overflow: hidden;
+}
+
+.landing-img
+{
+  margin-top: 30px;
+  width: 35%;
+  height: 60%;
+}
+
+.landing-img img
+{
+  height: 100%;
+  width: 100%;
+  animation: enlarge-image 6s alternate;
+}
+
+.landing-text h3
+{
+  font-weight: 300;
+  font-size: 58px;
+  font-family: 'Cabin Sketch';
+  text-transform: uppercase;
+  animation: showtext 6s alternate;
+  overflow: hidden;
+}
+
+.words h5
+{
+  font-size: 10px;
+  margin: 10px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.words p
+{
+  font-size: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.words span
+{
+  font-size: 8px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media screen and (max-width: 1300px) 
+{
+               .landing
+               {
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-around;
+                 flex-wrap: nowrap;
+                 padding: 0 20px;
+                 z-index: 5;
+                 top: 80px;
+                 height: 80vh;
+               }              
+
+               .landing-text h3
+               {
+                 font-weight: 300;
+                 font-size: 49px;
+                 border-left: white;
+               }
+}
+
+@media screen and (max-width: 1000px) 
+{
+
+  .landing
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 0 20px;
+    z-index: 5;
+    top: 80px;
+    height: 80vh;
+  }
+
+  .landing-text
+  {
+    width: 55%;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+
+  .landing-img
+  {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .landing-img img
+  {
+    width: 80%;
+  }
+
+  .landing-text h3
+  {
+    font-weight: 300;
+    font-size: 60px;
+    border-left: white;
+  }
+
+}
+
+@media screen and (max-width: 900px) 
+{
+  .landing
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 0 20px;
+    z-index: 5;
+    top: 80px;
+    height: 80vh;
+  }
+
+  .landing-text
+  {
+    width: 55%;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+
+  .landing-img
+  {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .landing-img img
+  {
+    width: 90%;
+  }
+
+  .landing-text h3
+  {
+    font-weight: 300;
+    font-size: 50px;
+    border-left: white;
+  }
+
+}
+
+@media screen and (max-width: 800px) 
+{
+  .landing
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    padding: 0 100px;
+    z-index: 5;
+    height: 100vh;
+  }
+
+  .landing-text
+  {
+    width: 20%;
+    padding-top: 0px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+
+  .landing-img
+  {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .landing-img img
+  {
+    width: 80%;
+  }
+
+  .phone
+  {
+    display: block;
+  }
+
+  .pc
+  {
+    display: none;
+  }
+
+  .landing
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    z-index: 5;
+  }
+
+  .landing-text h3
+  {
+    font-weight: 300;
+    font-size: 40px;
+    border-left: white;
+    padding: 0 50px;
+  }
+
+  .landing-text
+  {
+    width: 90%;
+    margin: 10px 0;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .landing-img
+  {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 799px)
+{
+
+  .landing-text
+  {
+    margin: 10px 0;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .landing-text h3
+  {
+    font-weight: 300;
+    font-size: 35px;
+  }
+
+  .landing-img
+  {
+    width: 50%;
+    height: 40%;
+  }
+} 
+
+@media screen and (max-width: 500px)
+{
+  .landing-img
+  {
+    width: 90%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 299px)
+{
+  body{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) 
+{
+               .landing-text h3
+               {
+                 font-weight: 300;
+                 font-size: 30px;
+               }
+} */

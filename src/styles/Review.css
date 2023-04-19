@@ -1,0 +1,154 @@
+.reviews
+{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.review-container
+{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.sponsors
+{
+  width: 55%;
+  position: relative;
+  left: 75px;
+}
+
+.sponsors-header
+{
+  height: 47vh;
+}
+
+.header-cover
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-cover h2
+{
+  color: white;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 50px;
+}
+
+.sponsors-logo .main
+{
+  width: 79%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.review-text
+{
+  width: 25%;
+  padding: 70px 50px;
+  border: 2px solid whitesmoke;
+  position: relative;
+  right: 75px;
+  background: white;
+}
+
+.review-text p
+{
+  margin: 20px 0;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 100;
+  color: gray;
+  font-family: sans-serif;
+}
+
+.reviewer-details
+{
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-details img
+{
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 0px 5px rgb(227, 226, 226);
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.reviewer-details h5
+{
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.reviewer-details span
+{
+  color: red;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+}
+
+.sponsors-logo
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0px;
+}
+
+.sponsors-logo  .main
+{
+  width: 80%;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sponsors-logo img
+{
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 800px)
+{
+  .sponsors
+{
+  width: 100%;
+  display: none;
+  position: relative;
+  left: 75px;
+}
+
+  .review-text
+  {
+    width: 60%;
+    padding: 40px 50px;
+    border: 2px solid whitesmoke;
+    position: relative;
+    right: 0px;
+  }
+
+  .review-text p
+{
+  margin: 20px 0;
+  font-size: 13px;
+  line-height: 28px;
+  font-weight: 100;
+  color: gray;
+  font-family: sans-serif;
+}
+
+}

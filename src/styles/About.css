@@ -1,0 +1,181 @@
+.About
+{
+  padding: 20px 0;
+  position: relative;
+}
+
+.Aboutus
+{
+    position: relative;
+    top: 90px;
+}
+
+.About-Container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.about-img
+{
+  width: 40%;
+}
+
+.about-img img
+{
+  width: 100%;
+}
+
+.about-txt
+{
+  width: 50%;
+}
+
+.about-txt h2
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.about-txt p
+{
+  color: gray;
+  font-size: 12px;
+  width: 90%;
+  margin: 25px 0 8px 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about-txt .date
+{
+  font-size: 8px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about-txt a
+{
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 1px solid #333;
+  color: #333;
+  font-weight: 600;
+  padding: 10px 10px;
+  font-size: 13px;
+}
+
+.about-txt a:hover
+{
+  background-color: black;
+  color: white;
+}
+
+.clubs-details
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 25px;
+}
+
+.clubs-details .num
+{
+  text-align: center;
+}
+
+.clubs-details .num h6
+{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+}
+
+.clubs-details .num span
+{
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media screen and (max-width: 800px)
+{
+  .About
+  {
+    margin-top: 0px;
+  }
+
+  .parent
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+
+  .vission
+  {
+    flex-wrap: wrap-reverse;
+  }
+
+  .about-img
+  {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .about-txt
+  {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .about-txt h2
+  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .about-txt p
+  {
+    color: gray;
+    font-size: 11px;
+    margin: 15px 0 10px 0;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .about-txt a
+  {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid #333;
+    color: #333;
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+
+  .clubs-details
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 25px;
+  }
+}

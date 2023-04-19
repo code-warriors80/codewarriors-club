@@ -1,0 +1,197 @@
+.contact
+{
+padding: 120px 0 50px 0;
+}
+
+.contact-container
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container .contact-parent
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 78%;
+  flex-wrap: wrap;
+}
+
+.form-container
+{
+  width: 50%;
+}
+
+.contact-image
+{
+               width: 40%;
+               padding: 30px 0;
+}
+
+.contact-image img
+{
+  width: 100%;
+}
+
+.form-container h2
+{
+  padding: 10px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-form
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-form form
+{
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 10px;
+}
+
+.contact-form form .inputs
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-form form .inputs input
+{
+  width: 45%;
+  height: 45px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  outline: 0;
+}
+
+.textarea
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form textarea
+{
+  width: 97%;
+  height: 260px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  outline: 0;
+  resize: none;
+  border: 1px solid gray;
+}
+
+.contact-form button
+{
+  background-color: transparent;
+  color: black;
+  font-weight: 600;
+  padding: 10px;
+  border: 1px solid black; 
+}
+
+.contact-form button:hover
+{
+  background-color: black;
+  color: white;
+}
+
+.socials img
+{
+  width: 40px;
+}
+
+.all
+{
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+}
+
+.all div a
+{
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px)
+{
+  .contact-container .contact-parent
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .contact-image
+{
+               width: 100%;
+               padding: 0px 10px 30px 10px;
+}
+
+table th
+{
+               float: left;
+               font-size: 16px;
+               padding: 30px 0;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table td
+{
+               float: right;
+               text-align: center;
+               font-family: 'Roboto Condensed', sans-serif;
+               color: gray;
+               font-size: 13px;
+               padding: 30px 0;
+}
+
+  .form-container
+{
+  width: 100%;
+}
+
+
+.contact-form form
+{
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.contact-form form .inputs input
+{
+  width: 45%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  outline: 0;
+}
+
+.contact-form textarea
+{
+  width: 98%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: 0;
+  resize: none;
+  border: 1px solid gray;
+}
+}

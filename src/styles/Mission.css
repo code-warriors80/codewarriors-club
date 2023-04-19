@@ -1,0 +1,93 @@
+.ourMission
+{
+  padding: 20px 0;
+  margin: 130px 0;
+}
+
+.mission
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+
+.mission-container
+{
+               width: 80%;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               flex-wrap: wrap;
+               padding: 20px;
+}
+
+.mission-text
+{
+               width: 45%;
+}
+
+.mission-text h2
+{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mission-text p
+{
+               font-size: 14px;
+               color: gray;
+               font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mission-img
+{
+               width: 40%;
+}
+
+.mission-img img
+{
+               width: 100%;
+}
+
+@media screen and (max-width: 800px)
+{
+  .ourMission
+{
+  padding: 20px 0;
+  margin: 10px 0;
+}
+
+  .mission-container
+  {
+                  padding: 20px;
+                 width: 100%;
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-between;
+                 flex-wrap: wrap;
+  }
+
+  .mission-text
+  {
+                 width: 100%;
+                 margin-bottom: 30px;
+  }
+
+  .mission-img
+{
+               width: 100%;
+}
+
+.mission-text p
+{
+               font-size: 12px;
+               color: gray;
+               font-family: 'Roboto Condensed', sans-serif;
+}
+
+.vission
+{
+  flex-wrap: wrap-reverse;
+}
+}

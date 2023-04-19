@@ -1,0 +1,103 @@
+.subscribe
+{
+  margin-top: 50px;
+}
+
+.subscribe p
+{
+  text-align: center;
+  position: relative;
+  top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+
+.subscribe-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  padding: 50px 0;
+}
+
+.sub-child
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.subscribe-container input
+{
+  padding: 10px 15px;
+  width: 60%;
+  height: 30px;
+  border: 0;
+  outline: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-transform: uppercase;
+}
+
+.subscribe-container button
+{
+  padding: 10px;
+  height: 50px;
+  width: 20%;
+  font-weight: 600;
+  background: #333;
+  color: white;
+  border: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px)
+{
+  .subscribe p
+  {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    padding: 0 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+  }
+  
+    .sub-child
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .subscribe-container input
+  {
+    padding: 10px 10px;
+    width: 60%;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    font-size: 9px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .subscribe-container button
+  {
+    padding: 10px;
+    height: 50px;
+    width: 20%;
+    background: #333;
+    color: white;
+    font-size: 7px;
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
